@@ -1,0 +1,3 @@
+default:
+	exit 1
+

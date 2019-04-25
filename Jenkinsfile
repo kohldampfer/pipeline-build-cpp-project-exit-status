@@ -11,7 +11,7 @@ pipeline {
 
 		stage('Exit with error') {
 			steps {
-				sh 'exit 1'
+				sh 'make'
 			}
 		}
 	}
