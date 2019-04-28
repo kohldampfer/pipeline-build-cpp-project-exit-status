@@ -9,8 +9,9 @@ pipeline {
 			}
 		}
 
-		stage('Exit with error') {
+		stage('Build project') {
 			steps {
+				checkout scm
 				sh 'make'
 			}
 		}
